@@ -1,0 +1,189 @@
+.article1-exhibition-container{
+    margin-top: 5%;
+}
+.article1-exhibition-container h1{
+    font-size: 2.5rem;
+    padding-left: 13%;
+}
+.article1-exhibition-container article>p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.paragraph-style-1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+.heading2_exhibition_page{
+    padding-left: 13%;
+    font-size: 2em;
+}
+.solar_energy_images{
+    margin: 2% 12% 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.solar_energy_images img{
+    object-fit: cover;
+    max-height: 440px;
+}
+.separator_exhibition_page{
+    padding-top: 0.5%;
+    margin: 3.2% 13% 3.2% 13%;
+}
+.my-shop{
+    margin: 2% 12% 2%;
+}
+.my-shop img{
+    object-fit: cover;
+    max-height: 192px;
+}
+.shop_grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 0.5%;
+    margin: 3.2% 9.6% 3.2% 9.6%;
+    gap: 10%;
+}
+.flex_box_column2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.item_container{
+    position: relative;
+}
+.item_container img{
+    max-width: 100%;
+    height: 35vh;
+    object-fit: contain;
+    display: block;
+}
+.shop-item-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10% 0%;
+}
+.shop-item-container input[type="number" i] {
+    padding: 0.5rem 1rem;
+    text-align: center;
+    width: 5vw;
+}
+.cart_btn{
+    background-color: #D9D9D9;
+    color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+}
+.cart_btn a{
+    font-size: 2em;
+}
+.cart_btn_text{
+    font-size: 1rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1000px){
+    .article1-exhibition-container article>p, .paragraph-style-1 {
+        font-size: 2rem;
+    }
+    .heading2_exhibition_page {
+        font-size: 2.5em;
+    }
+    .cart_btn a {
+        font-size: 1em;
+        line-height: 2;
+    }
+    .item_container img {
+        height: 14vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .my-shop img {
+        width: 74vw;
+    }
+    .shop_grid {
+        gap: 4%;
+        margin-bottom: 8%;
+    }
+}
+@media screen and (max-width: 500px){
+    .my-shop img {
+        width: 74vw;
+    }
+    .paragraph-style-1 {
+        margin-left: 13%;
+        margin-right: 13%;
+        width: 79vw;
+    }
+    .article1-exhibition-container h1,
+    .heading2_exhibition_page {
+        font-size: 2rem;
+    }
+
+    .article1-exhibition-container article>p,
+    .paragraph-style-1 {
+        font-size: 1.3rem;
+    }
+    .heading2_exhibition_page{
+        padding-right: 10%;
+    }
+    .shop-item-container input[type="number" i] {
+        padding: 8% 20%;
+    }
+    .cart_btn_text {
+        font-size: 1em;
+        font-weight: 550;
+    }
+    .item_container img {
+        max-width: 100%;
+        height: 15vh;
+    }
+    .cart_btn {
+        height: 14%;
+    }
+    .cart_btn a {
+        font-size: 0.6em;
+        line-height: 3;
+    }
+
+    .shop_grid {
+        gap: 6%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width:308px) {
+    .cart_btn_text {
+        font-size: 1em;
+        font-weight: 200;
+    }
+    .shop-item-container input[type="number" i] {
+        padding: 8% 20%;
+    }
+    .cart_btn {
+        height: 26%;
+    }
+    .fa-minus, .fa-plus{
+        font-size: 0.5em;
+    }
+    .article1-exhibition-container h1, .heading2_exhibition_page {
+        font-size: 1.5rem;
+    }
+    .article1-exhibition-container article>p, .paragraph-style-1 {
+        font-size: 1rem;
+    }
+
+}
